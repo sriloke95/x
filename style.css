@@ -1,0 +1,41 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(232, 209, 154);
+    padding: 20px;
+}
+form{
+    background-color: #ecb775;
+    padding: 20px;
+    border-radius:10px ;
+    max-width: 700px;
+    margin:auto;
+}
+h2{
+    text-align: center;
+    padding: 0px;
+}
+label{
+    display:block;
+    margin-top: 10px;
+}
+input,textarea,select{
+    width: 98%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    margin-top: 10px;
+    width:48%;
+    border: none;
+    border-radius: 10px;
+}
+.submit-btn {
+  background-color: #4CAF50;
+}
+
+.reset-btn {
+  background-color: #f44336;
+}
+

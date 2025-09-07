@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="registrationForm" onsubmit="return validateForm()">
+        <h2>Registration Form</h2>
+        <label>Name</label>
+        <input type="text" name="name">
+
+        <label>Father Name</label>
+        <input type="text" name="fatherName">
+
+        <label>Mother Name</label>
+        <input type="text" name="motherName">
+
+        <label>DOB</label>
+        <input type="date" name="dob">
+
+        <label>Address</label>
+        <textarea name="address" row="3"></textarea>
+
+        <label>Phone Number</label>
+        <input type="tel" name="phoneNo" pattern="[0-9]{10}">
+
+        <label>Email</label>
+        <input type="text" name="email">
+
+        <label>Gender</label>
+        <select name="gender">
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <div class="btn-group">
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="reset" class="reset-btn">Reset</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
